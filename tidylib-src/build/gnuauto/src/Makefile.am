@@ -1,14 +1,8 @@
 # Makefile [Makefile.am] - for tidy - HTML parser and pretty printer
 #
-#  CVS Info :
-#
-#     $Author: terry_teague $ 
-#     $Date: 2003/02/22 07:12:48 $ 
-#     $Revision: 1.4 $ 
-#
-#  Copyright (c) 1998-2002 World Wide Web Consortium
-#  (Massachusetts Institute of Technology, Institut National de
-#  Recherche en Informatique et en Automatique, Keio University).
+#  Copyright (c) 1998-2008 World Wide Web Consortium
+#  (Massachusetts Institute of Technology, European Research 
+#  Consortium for Informatics and Mathematics, Keio University).
 #  All Rights Reserved.
 #
 #  Contributing Author(s):
@@ -53,7 +47,7 @@
 #  acknowledgment is not required but would be appreciated.
 #
 
-CFLAGS = @CFLAGS@ @WARNING_CFLAGS@
+AM_CFLAGS = @CFLAGS@ @WARNING_CFLAGS@
 
 INCLUDES = -I$(top_srcdir)/include
 
@@ -63,18 +57,19 @@ libtidy_la_SOURCES = \
 	access.c	attrs.c		istack.c	parser.c \
 	tags.c		entities.c	lexer.c		pprint.c \
 	clean.c		localize.c	config.c	alloc.c \
-	attrask.c	attrget.c	buffio.c	fileio.c \
-	streamio.c	tagask.c	tmbstr.c	utf8.c \
-	tidylib.c
+	attrask.c	attrdict.c	attrget.c	buffio.c \
+	fileio.c	streamio.c	tagask.c	tmbstr.c \
+	utf8.c		tidylib.c	mappedio.c	gdoc.c
 
 libtidy_la_LDFLAGS = \
 	-version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE) \
 	-release $(LT_RELEASE) -no-undefined -export-dynamic
 
 HFILES = \
-	access.h	attrs.h		clean.h		config.h \
-	entities.h	forward.h	lexer.h		message.h \
-	parser.h	pprint.h	streamio.h	tags.h \
-	tmbstr.h	utf8.h		tidy-int.h
+	access.h	attrdict.h	attrs.h		clean.h \
+	config.h	entities.h	fileio.h 	forward.h \
+	lexer.h		mappedio.h	message.h	parser.h \
+	pprint.h	streamio.h	tags.h		tmbstr.h \
+	utf8.h		tidy-int.h	version.h	gdoc.h
 
 EXTRA_DIST = $(HFILES)

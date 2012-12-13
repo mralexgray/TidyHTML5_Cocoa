@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062E7AFA16795DAC00A26EAD /* gdoc.c in Sources */ = {isa = PBXBuildFile; fileRef = 062E7AF816795DAC00A26EAD /* gdoc.c */; };
+		062E7AFB16795DAC00A26EAD /* gdoc.h in Headers */ = {isa = PBXBuildFile; fileRef = 062E7AF916795DAC00A26EAD /* gdoc.h */; };
+		062E7AFF16795DD900A26EAD /* charsets.c in Sources */ = {isa = PBXBuildFile; fileRef = 062E7AFD16795DD900A26EAD /* charsets.c */; };
+		062E7B0016795DD900A26EAD /* charsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 062E7AFE16795DD900A26EAD /* charsets.h */; };
+		062E7B0316795DEE00A26EAD /* iconvtc.c in Sources */ = {isa = PBXBuildFile; fileRef = 062E7B0116795DEE00A26EAD /* iconvtc.c */; };
+		062E7B0416795DEE00A26EAD /* iconvtc.h in Headers */ = {isa = PBXBuildFile; fileRef = 062E7B0216795DEE00A26EAD /* iconvtc.h */; };
+		062E7B0716795DF900A26EAD /* mappedio.c in Sources */ = {isa = PBXBuildFile; fileRef = 062E7B0516795DF900A26EAD /* mappedio.c */; };
+		062E7B0816795DF900A26EAD /* mappedio.h in Headers */ = {isa = PBXBuildFile; fileRef = 062E7B0616795DF900A26EAD /* mappedio.h */; };
+		062E7B0B16795E3F00A26EAD /* attrdict.c in Sources */ = {isa = PBXBuildFile; fileRef = 062E7B0916795E3F00A26EAD /* attrdict.c */; };
+		062E7B0C16795E3F00A26EAD /* attrdict.h in Headers */ = {isa = PBXBuildFile; fileRef = 062E7B0A16795E3F00A26EAD /* attrdict.h */; };
 		D0B3C52E0CF257E800633C82 /* buffio.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CCB42B0364D26D01A80165 /* buffio.h */; };
 		D0B3C52F0CF257E800633C82 /* fileio.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CCB42C0364D26D01A80165 /* fileio.h */; };
 		D0B3C5300CF257E800633C82 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CCB42D0364D26D01A80165 /* platform.h */; };
@@ -87,6 +97,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		062E7AF816795DAC00A26EAD /* gdoc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdoc.c; sourceTree = "<group>"; };
+		062E7AF916795DAC00A26EAD /* gdoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gdoc.h; sourceTree = "<group>"; };
+		062E7AFD16795DD900A26EAD /* charsets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = charsets.c; sourceTree = "<group>"; };
+		062E7AFE16795DD900A26EAD /* charsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = charsets.h; sourceTree = "<group>"; };
+		062E7B0116795DEE00A26EAD /* iconvtc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iconvtc.c; sourceTree = "<group>"; };
+		062E7B0216795DEE00A26EAD /* iconvtc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iconvtc.h; sourceTree = "<group>"; };
+		062E7B0516795DF900A26EAD /* mappedio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mappedio.c; sourceTree = "<group>"; };
+		062E7B0616795DF900A26EAD /* mappedio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mappedio.h; sourceTree = "<group>"; };
+		062E7B0916795E3F00A26EAD /* attrdict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = attrdict.c; sourceTree = "<group>"; };
+		062E7B0A16795E3F00A26EAD /* attrdict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attrdict.h; sourceTree = "<group>"; };
 		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -359,9 +379,13 @@
 		F5CCB4300364D26D01A80165 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				062E7AFD16795DD900A26EAD /* charsets.c */,
+				062E7AFE16795DD900A26EAD /* charsets.h */,
 				F5CCB4310364D26D01A80165 /* access.c */,
 				F5CCB4320364D26D01A80165 /* access.h */,
 				F5CCB4330364D26D01A80165 /* alloc.c */,
+				062E7B0916795E3F00A26EAD /* attrdict.c */,
+				062E7B0A16795E3F00A26EAD /* attrdict.h */,
 				F5CCB4340364D26D01A80165 /* attrask.c */,
 				F5CCB4350364D26D01A80165 /* attrget.c */,
 				F5CCB4360364D26D01A80165 /* attrs.c */,
@@ -375,10 +399,16 @@
 				F5CCB43E0364D26D01A80165 /* entities.h */,
 				F5CCB43F0364D26D01A80165 /* fileio.c */,
 				F5CCB4400364D26D01A80165 /* forward.h */,
+				062E7AF816795DAC00A26EAD /* gdoc.c */,
+				062E7AF916795DAC00A26EAD /* gdoc.h */,
+				062E7B0116795DEE00A26EAD /* iconvtc.c */,
+				062E7B0216795DEE00A26EAD /* iconvtc.h */,
 				F5CCB4410364D26D01A80165 /* istack.c */,
 				F5CCB4420364D26D01A80165 /* lexer.c */,
 				F5CCB4430364D26D01A80165 /* lexer.h */,
 				F5CCB4440364D26D01A80165 /* localize.c */,
+				062E7B0516795DF900A26EAD /* mappedio.c */,
+				062E7B0616795DF900A26EAD /* mappedio.h */,
 				F5CCB4450364D26D01A80165 /* message.h */,
 				F5CCB4460364D26D01A80165 /* parser.c */,
 				F5CCB4470364D26D01A80165 /* parser.h */,
@@ -436,6 +466,11 @@
 				D0B3C5490CF257E800633C82 /* OptionPaneController.h in Headers */,
 				D0B3C54A0CF257E800633C82 /* JSDTableView.h in Headers */,
 				D0B3C54B0CF257E800633C82 /* JSDTextView.h in Headers */,
+				062E7AFB16795DAC00A26EAD /* gdoc.h in Headers */,
+				062E7B0016795DD900A26EAD /* charsets.h in Headers */,
+				062E7B0416795DEE00A26EAD /* iconvtc.h in Headers */,
+				062E7B0816795DF900A26EAD /* mappedio.h in Headers */,
+				062E7B0C16795E3F00A26EAD /* attrdict.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +578,11 @@
 				D0B3C5780CF257E800633C82 /* main.m in Sources */,
 				D0B3C5790CF257E800633C82 /* JSDTableView.m in Sources */,
 				D0B3C57A0CF257E800633C82 /* JSDTextView.m in Sources */,
+				062E7AFA16795DAC00A26EAD /* gdoc.c in Sources */,
+				062E7AFF16795DD900A26EAD /* charsets.c in Sources */,
+				062E7B0316795DEE00A26EAD /* iconvtc.c in Sources */,
+				062E7B0716795DF900A26EAD /* mappedio.c in Sources */,
+				062E7B0B16795E3F00A26EAD /* attrdict.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
