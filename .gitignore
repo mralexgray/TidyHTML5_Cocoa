@@ -1,0 +1,26 @@
+
+*.dep
+*.o
+English.lproj/.DS_Store
+Classes/JSDTidy/.DS_Store
+Classes/.DS_Store
+Balthisar Tidy.xcodeproj/project.xcworkspace/xcuserdata/horky.xcuserdatad/UserInterfaceState.xcuserstate
+*.hmap
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/AppController.d
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/AppController.dia
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/Balthisar Tidy.LinkFileList
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/alloc.d
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/alloc.dia
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/BatchController.d
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/BatchController.dia
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/JSDTableColumn.d
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/JSDTableColumn.dia
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/access.dia
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/attrask.d
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/attrask.dia
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/attrdict.d
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/attrdict.dia
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/attrget.d
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/access.d
+Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/JSDTableView.d
+/Build/
