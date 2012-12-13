@@ -24,3 +24,5 @@ Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Object
 Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/access.d
 Build/Intermediates/Balthisar Tidy.build/Development/Balthisar Tidy.build/Objects-normal/i386/JSDTableView.d
 /Build/
+
+.DS_Store
